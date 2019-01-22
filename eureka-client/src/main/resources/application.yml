@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+server:
+#  port: 8762
+  port: 8763
+spring:
+  application:
+    name: service-hi
+appKey: 1
+appSecret: 1
+bucket: lynn
+endPoint: https://www.aliyun.com
